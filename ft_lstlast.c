@@ -6,7 +6,7 @@
 /*   By: arivas-q <arivas-q@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/27 08:15:53 by arivas-q          #+#    #+#             */
-/*   Updated: 2025/01/29 15:43:43 by arivas-q         ###   ########.fr       */
+/*   Updated: 2025/02/04 11:12:07 by arivas-q         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,5 @@ t_list	*ft_lstlast(t_list *lst)
 			return (lst);
 		lst = lst->next;
 	}
-	return (NULL);
+	return (NULL);     ddee
 }
